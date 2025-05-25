@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>マルチオートクリッカー ダウンロードページ</title>
+
+  <!-- Google Font（好みで変更・削除可）-->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ------- 基本スタイル ------- */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, #1f2937 0%, #4b5563 100%);
+      color: #f9fafb;
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+    .panel {
+      max-width: 640px;
+      width: 100%;
+      padding: 2.5rem;
+      text-align: center;
+      background: #111827d9;            /* 半透明ダークカード */
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,.4);
+    }
+    h1 { font-size: 1.9rem; margin-bottom: 1rem; letter-spacing: .05rem; }
+    p  { margin: .6rem 0 1.1rem; line-height: 1.6; }
+
+    /* ------- ダウンロードボタン ------- */
+    .btn-download {
+      display: inline-block;
+      padding: .9rem 2.4rem;
+      font-size: 1.05rem; font-weight: 700;
+      color: #f9fafb; background: #10b981;
+      border: none; border-radius: 8px;
+      cursor: pointer; text-decoration: none;
+      transition: background .25s;
+    }
+    .btn-download:hover { background: #059669; }
+
+    /* ------- 区切り線 ------- */
+    .divider {
+      margin: 2.2rem auto;
+      width: 60%;
+      border: 0; border-top: 1px solid #374151;
+    }
+
+    /* ------- フッター ------- */
+    footer { margin-top: 2rem; font-size: .85rem; color: #9ca3af; }
+    a { color: #93c5fd; }
+  </style>
+</head>
+
+<body>
+  <main class="panel">
+    <h1>マルチオートクリッカー<br>ダウンロード</h1>
+    <p>下のボタンを押すと Dropbox に移動します。<br>ファイルを保存してご利用ください。</p>
+
+    <!-- ▼▼▼ 必ずここをあなたのDropbox共有リンクに変更 ▼▼▼ -->
+    <a href="https://www.dropbox.com/scl/fi/cgeim1srmj1glrpfn0gzs/.zip?rlkey=l0ia3q9q7900xvtu24golkvke&st=shfgll58&dl=0" class="btn-download" target="_blank" rel="noopener">Download</a>
+    <!-- ▲▲▲ ここまで ▲▲▲ -->
+
+    <hr class="divider">
+
+    <p>マルチオートクリッカーの動作については一切保証致しません。<br>
+       ダウンロードは自己責任でお願いします。</p>
+
+    <p>バグ報告などは Discord の方に<br>
+       ID：<code>leme_doru8</code></p>
+
+    <footer>© 2025 Lemedios</footer>
+  </main>
+</body>
+</html>
